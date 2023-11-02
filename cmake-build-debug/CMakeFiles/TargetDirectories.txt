@@ -1,0 +1,3 @@
+D:/Siemens/Assignments/Software Utilities/VCS/cmake-build-debug/CMakeFiles/VCS.dir
+D:/Siemens/Assignments/Software Utilities/VCS/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Siemens/Assignments/Software Utilities/VCS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
