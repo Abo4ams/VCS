@@ -8,11 +8,20 @@ int getSum(std::vector<int> v){
     return sum;
 }
 
+int getMin(std::vector<int> v){
+    int mn = v[0];
+    for(auto& i : v)
+        mn = std::min(mn, i);
+    return mn;
+}
+
 int main() {
     std::vector<int> v;
     for(int i = 1; i <= 10; i++)
         v.push_back(i);
     int sum = getSum(v);
     std::cout << sum << std::endl;
+    int mn = getMin(v);
+    std::cout << mn << std::endl;
     return 0;
 }
